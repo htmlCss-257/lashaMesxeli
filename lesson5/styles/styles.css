@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.photos img{
+    width: 33%;
+    object-fit: cover;
+}
+table{
+    border-collapse: collapse;
+    width: 100px;
+}
+th{
+    border: 1px solid black;
+    background-color: #eee;
+}
+td{
+border: 1px dashed gray;
+padding: 8px;
+text-align: center;
+}
+.search-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
